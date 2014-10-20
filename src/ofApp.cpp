@@ -37,6 +37,8 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+    
+    //Merci Ludo pour ton aide
 	
     currentFrame = vidGrabber.getPixelsRef();
     currentFrameCopy.allocate(currentFrame.getWidth(), currentFrame.getHeight(), OF_IMAGE_GRAYSCALE);
